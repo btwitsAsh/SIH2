@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKill Square</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="nav" data-scroll data-scroll-sticky data-scroll-target=".main" >
+        <div class="left">
+            <i class="fa-regular fa-square"></i>
+            <h2>Skill Square</h2>
+        </div>
+            <div class="right">
+                <button type="button">Login</button>
+                <button type="button">Sign up</button>
+            </div>
+        </div>
+        <div class="content" > 
+            <div class="leftHeading" data-scroll data-scroll-speed="5">
+                <h1>Empower Your Career with Data-Driven Insights: Explore the Latest Job Trends, Skills in Demand, and Salary Benchmarks to Stay Ahead in the Job Market</h1>
+            </div>
+            <div class="rightData" data-scroll data-scroll-speed="0.3">
+                <div class="trend-list">
+                    <ul>
+                        <li id="demand"><strong>Top 5 Skills in Demand</strong>
+                            <ul>
+                                <li>Cloud Computing</li>
+                                <li>Artificial Intelligence (AI) and Machine Learning (ML)</li>
+                                <li>Data Science and Analytics</li>
+                                <li>Cybersecurity</li>
+                                <li>Full-Stack Development</li>
+                            </ul>
+                        </li>
+                        <li id="job"><strong>Trending Job Titles</strong>
+                            <ul>
+                                <li>AI Engineer</li>
+                                <li>Data Scientist</li>
+                                <li>Cloud Architect</li>
+                                <li>Full-Stack Developer</li>
+                                <li>Cybersecurity Specialist</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="buttons">
+                    <button onclick="location.href='#jobs'">Explore Jobs</button>
+                    <button onclick="location.href='#skills'">Learn Top Skills</button>
+                </div>
+            </div>
+        </div>
+        <div class="container"data-scroll data-scroll-speed="2" >
+            <h1 class="services" data-scroll data-scroll-speed="-3">OUR SERVICES:</h1>
+            <div class="card" id="card1">
+                <h1>COMMUNITIES</h1>
+                <ul class="hover-list">
+                    <li>Join a community</li>
+                    <li>Create a community</li>
+                    <li>View all communities</li>
+                </ul>
+            </div>
+            <div class="card" id="card2">
+                <h1>RESUME</h1>
+                <ul class="hover-list">
+                    <li>ATS Score</li>
+                    <li>Resume Templates</li>
+                    <li>Resume Review</li>
+                    <li>Other Tips</li>
+                </ul>
+            </div>
+            <div class="card" id="card3">
+                <h1>JOBS & INTERNSHIPS</h1>
+                <ul class="hover-list">
+                    <li>Look for a Job</li>
+                    <li>Look for internship</li>
+                    <li>Recent trends</li>
+                </ul>
+            </div>
+            <div class="card" id="card4">
+                <h1>MARKET TRENDS</h1>
+                <ul class="hover-list">
+                    <li>Explore the market</li>
+                    <li>Recent market trends</li>
+                    <li>Get Insights</li>
+                </ul>
+            </div>
+            <div class="card" id="card5">
+                <h1>PROFILE CALCULATOR</h1>
+                <ul class="hover-list">
+                    <li>Profile Strength</li>
+                    <li>Skills Analysis</li>
+                    <li>Benchmark with Top Profiles</li>
+            </div>
+            <div class="card" id="card6">
+                <h1>EVENTS AND MORE</h1>
+                <ul class="hover-list">
+                    <li>Upcoming Events</li>
+                    <li>Host an Event</li>
+                    <li>Share your Experience</li>
+                    <li>Old Events</li>
+                </ul>
+            </div>
+            <div class="card" id="card7" >
+                <h1>MENTOR CONNECT</h1>
+                <ul class="hover-list">
+                    <li>Look for a Mentor</li>
+                    <li>Be a Mentor</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
